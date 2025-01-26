@@ -34,7 +34,7 @@ function premio(){
     	# echo "PREMIO: $premio14"
 	elif [ "$acertos" -eq 15 ]
 	then
-		PREMIO="15 POMTOS - PREMIO MAXIMO"
+		PREMIO="15 PONTOS - PREMIO MAXIMO"
 		# return 200
     	# echo "PREMIO: $premio15"
 	else
