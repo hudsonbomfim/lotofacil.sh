@@ -66,7 +66,7 @@ function logPontos(){
 	# OUTPUT
 	echo -e "Concurso: $concurso"
 	echo -e "Data    : $dataApuracao"
-	echo "Aposta :" "${jogo1[@]}"
+	echo "Aposta  :" "${jogo1[@]}"
 
 	arquivoEntrada="/tmp/lotofacil.txt"
 
@@ -86,7 +86,7 @@ function logPontos(){
 	premio $acertos
 		valor="$?"
 		dezenas=$(cat /tmp/lotofacil.txt | sort | tr '\n' ' ')
-		echo "Dezens : $dezenas"
+		echo "Dezenas : $dezenas"
 		echo ""
 		echo -e "QTD acertos: $acertos\tvalor: $PREMIO"
 		echo "-------------------------------------------------"
